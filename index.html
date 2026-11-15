@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chuijhal Mart | চুইঝাল কম্বো প্যাক</title>
+<meta name="description" content="যশোর-খুলনার চুইঝাল, রেডি-টু-ইট চুই গোরমেট ও চুই জ্যাম কম্বো প্যাক। ক্যাশ অন ডেলিভারি, ডেলিভারির সময় টেস্ট করার সুবিধা।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="icon" type="image/jpeg" href="logo.jpg">
+<style>
+  html{scroll-behavior:smooth}
+  body{font-family:'Hind Siliguri','Inter',sans-serif}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  [hidden]{display:none!important}
+  /* Premium animations */
+  @keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+  @keyframes shimmer{0%{background-position:-200% center}100%{background-position:200% center}}
+  @keyframes pulse-gold{0%,100%{box-shadow:0 0 10px rgba(212,175,55,0.3)}50%{box-shadow:0 0 25px rgba(212,175,55,0.6)}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes spinSlow{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+  .animate-spin-slow{animation:spinSlow 12s linear infinite}
+  .anim-up{animation:fadeInUp .7s ease-out both}
+  .anim-in{animation:fadeIn .6s ease-out both}
+  .anim-d1{animation-delay:.1s}.anim-d2{animation-delay:.2s}.anim-d3{animation-delay:.3s}.anim-d4{animation-delay:.4s}.anim-d5{animation-delay:.5s}
+  .shimmer-text{background:linear-gradient(90deg,#FFF2B2 0%,#E8C15A 25%,#FFE68A 50%,#E8C15A 75%,#FFF2B2 100%);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shimmer 3s linear infinite}
+  .gold-border-glow{animation:pulse-gold 3s ease-in-out infinite}
+  .float-anim{animation:float 4s ease-in-out infinite}
+  /* Smooth hover transitions */
+  .nav-link{position:relative;transition:color .3s}
+  .nav-link::after{content:'';position:absolute;left:0;bottom:-4px;width:0;height:2px;background:linear-gradient(90deg,#FFF2B2,#D4AF37);transition:width .3s}
+  .nav-link:hover::after{width:100%}
+  /* Card hover lift */
+  .card-lift{transition:transform .3s,box-shadow .3s}
+  .card-lift:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(74,14,23,0.15)}
+  /* Gold divider */
+  .gold-divider{height:2px;background:linear-gradient(90deg,transparent,#D4AF37,transparent)}
+  /* Section reveal on scroll */
+  .reveal{opacity:0;transform:translateY(30px);transition:opacity .6s,transform .6s}
+  .reveal.visible{opacity:1;transform:translateY(0)}
+  /* Inline icon sizing */
+  .ic{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;flex-shrink:0}
+  .ic svg{width:1em;height:1em;stroke-width:2}
+  .ic-sm svg{width:.875rem;height:.875rem}
+  .ic-md svg{width:1.25rem;height:1.25rem}
+  .ic-lg svg{width:1.5rem;height:1.5rem}
+  .ic-xl svg{width:1.75rem;height:1.75rem}
+</style>
+</head>
+<body class="bg-[#FFF8EC] text-[#1F1F1F]">
+
+<!-- Announcement -->
+<div class="bg-gradient-to-r from-[#380810] via-[#5c111d] to-[#380810] text-[#FFF2B2] border-b border-[#D4AF37]/30 py-2 px-3 text-center text-xs sm:text-sm font-medium flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+  <span data-show="discount" class="font-semibold"><svg class="w-4 h-4 fill-current text-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"/></svg> স্পেশাল কম্বো অফার: <span data-b="regular"></span> এর বদলে <span data-b="offer"></span></span>
+  <span data-show="nodiscount" class="font-semibold"><svg class="w-4 h-4 fill-current text-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"/></svg> স্পেশাল কম্বো প্যাক মাত্র <span data-b="offer"></span></span>
+  <span class="hidden sm:inline text-[#D4AF37]/50">|</span>
+  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[#C8321E] text-white text-xs font-extrabold shadow-sm">
+    <svg class="w-3.5 h-3.5 fill-none stroke-white inline-block shrink-0 animate-spin-slow" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    অফার বাকি: <span data-timer class="font-mono tracking-wider"></span>
+  </span>
+  <span class="hidden md:inline text-[#D4AF37]/50">|</span>
+  <span class="text-white/90 hidden md:inline"><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> ডেলিভারি ম্যান থাকা অবস্থায় টেস্ট করে নেওয়ার সুবিধা</span>
+</div>
+
+<!-- Header -->
+<header class="sticky top-0 z-40 bg-[#4A0E17]/97 backdrop-blur-xl border-b border-[#D4AF37]/40 shadow-[0_4px_30px_rgba(74,14,23,0.5)]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2">
+    <a href="#top" class="flex items-center gap-3 group" aria-label="Chuijhal Mart হোম">
+      <img src="logo.jpg" alt="Chuijhal Mart Logo" class="w-11 h-11 sm:w-14 sm:h-14 rounded-xl object-cover border border-[#D4AF37]/50 shadow-md group-hover:shadow-[0_0_15px_rgba(212,175,55,0.4)] transition-shadow duration-300">
+      <span class="flex flex-col">
+        <span class="font-extrabold text-lg sm:text-xl shimmer-text">Chuijhal mart</span>
+        <span class="text-[10px] sm:text-xs text-[#E8C15A]/90 -mt-0.5">ঝালে ও স্বাদে খাঁটি, মানে শতভাগ প্রতিশ্রুতি</span>
+      </span>
+    </a>
+    <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-[#FFF8EC]/90" aria-label="প্রধান মেনু">
+      <a href="#products" class="nav-link hover:text-[#E8C15A]">কম্বো অফার</a>
+      <a href="#how" class="nav-link hover:text-[#E8C15A]">কীভাবে খাবেন</a>
+      <a href="#why" class="nav-link hover:text-[#E8C15A]">কেন আমরা</a>
+      <a href="#faq" class="nav-link hover:text-[#E8C15A]">প্রশ্নোত্তর</a>
+    </nav>
+    <div class="flex items-center gap-2 sm:gap-3">
+      <a data-tel href="#" class="hidden sm:inline-flex items-center px-3.5 py-2 rounded-xl bg-[#2F5D3A] hover:bg-[#254b2e] text-white text-sm font-semibold transition-colors duration-200 shadow-md"><svg class="w-4 h-4 fill-none stroke-white inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <span data-phone class="ml-1"></span></a>
+      <a href="#order-form" class="inline-flex px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-gradient-to-r from-[#FFF2B2] via-[#E8C15A] to-[#D4AF37] text-[#4A0E17] font-extrabold text-xs sm:text-sm shadow-[0_4px_15px_rgba(212,175,55,0.4)] hover:shadow-[0_6px_20px_rgba(212,175,55,0.6)] hover:scale-[1.03] transition-all duration-200">অর্ডার করুন <span data-b="offer" class="ml-1"></span></a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<!-- Hero -->
+<section class="relative bg-gradient-to-br from-[#3B0A11] via-[#4A0E17] to-[#63121E] text-white pt-0 pb-14 sm:py-0 lg:py-0 border-b-4 border-[#D4AF37] overflow-hidden">
+  <!-- Banner Background -->
+  <div class="w-full overflow-hidden">
+    <img src="banner.jpg" alt="Chuijhal Mart Banner" class="w-full h-48 sm:h-64 md:h-80 lg:h-96 object-cover object-center opacity-90">
+    <div class="absolute top-0 left-0 right-0 h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-b from-transparent via-transparent to-[#4A0E17]"></div>
+  </div>
+  
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center -mt-10 sm:-mt-16 pb-10 sm:pb-16">
+    <div class="lg:col-span-7 space-y-5 text-center lg:text-left anim-up">
+      <div class="inline-block px-4 py-2 rounded-full bg-[#2d070c]/90 border border-[#D4AF37]/60 text-[#FFF2B2] text-xs sm:text-sm font-semibold shadow-lg backdrop-blur-sm"><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg> যশোর-খুলনার চুইঝাল | রেডি টু ইট | হ্যান্ডক্রাফটেড</div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold leading-[1.2] tracking-tight">
+        <span class="block anim-up anim-d1">ঘরেই রেস্টুরেন্টের স্বাদ —</span>
+        <span class="shimmer-text anim-up anim-d2">চুই গোরমেট (১৭৫ মি.লি.) + চুই জ্যাম (২০০ মি.লি.) কম্বো</span>
+      </h1>
+      <p class="text-base sm:text-lg text-[#FFF8EC]/90 max-w-2xl mx-auto lg:mx-0 leading-relaxed anim-up anim-d3">এখন আর চুইঝাল কাটা বা বাটার ঝামেলা নেই। দুটি হ্যান্ডক্রাফটেড জার একসাথে অর্ডার করুন বিশেষ মূল্যে।</p>
+
+      <div class="bg-[#2d070c]/95 border-2 border-[#D4AF37] rounded-3xl p-4 sm:p-5 max-w-2xl mx-auto lg:mx-0 shadow-[0_8px_30px_rgba(212,175,55,0.2)] gold-border-glow anim-up anim-d3">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="text-center sm:text-left">
+            <div data-show="discount" class="flex items-center justify-center sm:justify-start gap-2">
+              <span class="text-sm text-white/75 line-through font-semibold">রেগুলার মূল্য: <span data-b="regular"></span></span>
+              <span class="px-2.5 py-0.5 rounded-full bg-[#C8321E] text-white text-xs font-extrabold animate-pulse"><span data-b="unitSave"></span> সাশ্রয়</span>
+            </div>
+            <div class="mt-1 flex items-baseline justify-center sm:justify-start gap-2">
+              <span class="text-sm font-bold text-[#FFF2B2]">অফার মূল্য:</span>
+              <span data-b="offer" class="text-3xl sm:text-4xl font-extrabold text-[#E8C15A]"></span>
+            </div>
+          </div>
+          <div data-show="timer" class="flex flex-col sm:flex-row sm:items-center justify-center sm:justify-start gap-2.5 text-[#FFF2B2] text-xs sm:text-sm font-bold bg-[#380810]/90 border border-[#D4AF37]/40 rounded-2xl p-2.5 sm:px-4 sm:py-2.5 shadow-md">
+            <div class="flex items-center gap-1.5 shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0 animate-spin-slow" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>অফার শেষ হতে বাকি:</span>
+            </div>
+            <div class="flex items-center gap-1 font-mono font-extrabold text-sm sm:text-base">
+              <div class="flex flex-col items-center">
+                <span data-timer-h class="px-2 py-1 rounded-lg bg-[#C8321E] text-white shadow-inner min-w-[32px] text-center">০০</span>
+                <span class="text-[9px] text-[#FFF2B2]/80 font-normal mt-0.5">ঘণ্টা</span>
+              </div>
+              <span class="text-[#E8C15A] font-bold pb-3">:</span>
+              <div class="flex flex-col items-center">
+                <span data-timer-m class="px-2 py-1 rounded-lg bg-[#C8321E] text-white shadow-inner min-w-[32px] text-center">০০</span>
+                <span class="text-[9px] text-[#FFF2B2]/80 font-normal mt-0.5">মিনিট</span>
+              </div>
+              <span class="text-[#E8C15A] font-bold pb-3">:</span>
+              <div class="flex flex-col items-center">
+                <span data-timer-s class="px-2 py-1 rounded-lg bg-[#C8321E] text-white shadow-inner min-w-[32px] text-center animate-pulse">০০</span>
+                <span class="text-[9px] text-[#FFF2B2]/80 font-normal mt-0.5">সেকেন্ড</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="inline-flex items-center gap-3 bg-[#2d070c]/90 border-l-4 border-[#E8C15A] px-4 py-3 rounded-r-xl text-left max-w-xl shadow-md anim-up anim-d4 backdrop-blur-sm">
+        <svg class="w-7 h-7 fill-none stroke-[#E8C15A] shrink-0" viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+        <div>
+          <p class="text-sm font-bold text-[#FFF2B2]">ডেলিভারি ম্যান থাকা অবস্থায় টেস্ট করে নেওয়ার সুবিধা</p>
+          <p class="text-xs text-white/80">অগ্রিম কোনো টাকা নয়, পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।</p>
+        </div>
+      </div>
+
+      <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5 anim-up anim-d4">
+        <a href="#order-form" class="w-full sm:w-auto inline-flex justify-center px-8 py-4 rounded-2xl bg-gradient-to-r from-[#FFF2B2] via-[#E8C15A] to-[#D4AF37] text-[#4A0E17] font-extrabold text-base sm:text-lg shadow-[0_10px_30px_rgba(212,175,55,0.4)] hover:shadow-[0_14px_40px_rgba(212,175,55,0.55)] hover:scale-[1.03] transition-all duration-300"><svg class="w-5 h-5 fill-none stroke-[#4A0E17] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> কম্বো অর্ডার করুন <span data-b="offer" class="ml-2"></span></a>
+        <a data-wa href="#" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex justify-center px-6 py-4 rounded-2xl bg-[#2F5D3A] hover:bg-[#264d2f] text-white font-bold border border-white/20 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300"><svg class="w-5 h-5 fill-current text-white inline-block shrink-0" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.053-1.025-.078-.58-.194-1.332-.576-2.228-1.472-.897-.896-1.28-1.648-1.473-2.228-.13-.391-.123-.713-.078-1.025.05-.333.419-1.026.824-1.17.135-.048.281-.039.387.026.115.07.218.232.298.397.168.347.574 1.401.624 1.503.05.102.058.209-.007.319-.066.11-.144.204-.236.312-.092.108-.184.2-.276.308-.099.117-.035.247.037.369.297.502.668.956 1.109 1.353.483.435.98.775 1.516 1.019.141.064.267.064.364-.047.098-.112.422-.491.534-.658.112-.167.225-.14.373-.085.148.055.938.442 1.098.522.16.08.267.12.307.187.04.068.04.394-.104.799z"/></svg> হোয়াটসঅ্যাপে অর্ডার</a>
+      </div>
+
+      <div class="pt-2 flex flex-wrap items-center justify-center lg:justify-start gap-x-5 gap-y-2 text-xs sm:text-sm text-[#FFF2B2]/90 font-medium anim-up anim-d5">
+        <span data-show="bsti"><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> BSTI অনুমোদিত (<span data-text="bstiLicense"></span>)</span>
+        <span><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> সারা বাংলাদেশে ডেলিভারি</span>
+        <span><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M11 3 8 9l4 12 4-12-3-6"/><path d="M2 9h20"/></svg> হ্যান্ডক্রাফটেড</span>
+      </div>
+    </div>
+
+    <div class="lg:col-span-5 flex justify-center anim-in anim-d3">
+      <div class="w-full max-w-md bg-gradient-to-b from-[#6e1523]/80 to-[#380810]/90 border-2 border-[#D4AF37]/60 rounded-3xl p-6 shadow-[0_15px_40px_rgba(0,0,0,0.4)] gold-border-glow">
+        <div class="flex items-center justify-center py-2" id="hero-jars"></div>
+        <div class="gold-divider mt-4"></div>
+        <div class="mt-3 text-center text-sm font-bold text-[#FFF2B2]">চুই গোরমেট ১৭৫ মি.লি. + চুই জ্যাম ২০০ মি.লি.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust bar -->
+<section class="bg-white border-b border-[#D4AF37]/30 py-8 reveal">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 lg:grid-cols-4 gap-5" id="trust"></div>
+</section>
+
+<!-- Product -->
+<section id="products" class="py-14 sm:py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 reveal">
+  <div class="text-center max-w-3xl mx-auto mb-12">
+    <h2 class="text-2xl sm:text-4xl font-extrabold text-[#4A0E17]">স্পেশাল চুইঝাল কম্বো প্যাক (১৭৫ মি.লি. + ২০০ মি.লি.)</h2>
+    <div class="gold-divider w-24 mx-auto mt-4 mb-3"></div>
+    <p class="text-sm sm:text-base text-gray-700 mt-2">রেডি-টু-ইট চুই গোরমেট এবং টক-ঝাল-মিষ্টি চুই জ্যাম, দুটি কাঁচের জার একসাথে।</p>
+  </div>
+  <div class="rounded-3xl bg-white border-2 border-[#D4AF37] shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-12">
+    <div class="lg:col-span-6 bg-gradient-to-br from-[#3B0A11] via-[#4A0E17] to-[#63121E] p-6 sm:p-8 text-white">
+      <div class="grid grid-cols-2 gap-4 items-center" id="product-jars"></div>
+    </div>
+    <div class="lg:col-span-6 p-6 sm:p-8 flex flex-col justify-between">
+      <div class="space-y-4">
+        <div class="p-3.5 rounded-2xl bg-[#FFF8EC] border border-[#D4AF37]/50"><h3 class="font-extrabold text-[#4A0E17]">১. চুই গোরমেট — ১৭৫ মি.লি.</h3><p class="text-sm text-gray-700 mt-0.5 leading-relaxed">চুইঝাল ও মসলায় তৈরি রেডি-টু-ইট। রান্না করা মাংস বা মাছের সাথে মিশিয়ে, কিংবা গরম ভাতের সাথে খেতে পারেন।</p></div>
+        <div class="p-3.5 rounded-2xl bg-[#FFF8EC] border border-[#D4AF37]/50"><h3 class="font-extrabold text-[#4A0E17]">২. চুই জ্যাম — ২০০ মি.লি.</h3><p class="text-sm text-gray-700 mt-0.5 leading-relaxed">টক, ঝাল ও মিষ্টির মিশ্রণ। পোলাও, বিরিয়ানি, খিচুড়ি বা পরোটার সাথে সাইড ডিশ হিসেবে মুখরোচক।</p></div>
+        <div class="bg-white rounded-2xl p-4 border-2 border-[#4A0E17]/15 space-y-2">
+          <div data-show="discount" class="text-xs text-gray-600 font-semibold">রেগুলার মূল্য: <span data-b="regular" class="line-through text-red-600 font-bold text-sm"></span> <span class="ml-2 bg-[#2F5D3A] text-white px-2.5 py-0.5 rounded-lg font-extrabold">সাশ্রয় <span data-b="unitSave"></span></span></div>
+          <div class="flex items-baseline gap-2"><span class="text-sm font-extrabold text-[#4A0E17]">কম্বো অফার মূল্য:</span><span data-b="offer" class="text-3xl sm:text-4xl font-extrabold text-[#4A0E17]"></span></div>
+          <div data-show="timer" class="p-3 rounded-2xl bg-[#FFF8EC] border border-[#D4AF37]/50 flex flex-wrap items-center justify-between gap-2.5 shadow-sm">
+            <div class="flex items-center gap-2 text-xs sm:text-sm font-extrabold text-[#4A0E17]">
+              <svg class="w-4 h-4 fill-none stroke-[#C8321E] inline-block shrink-0 animate-spin-slow" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>অফার শেষ হতে বাকি:</span>
+            </div>
+            <div class="flex items-center gap-1 font-mono font-extrabold text-xs sm:text-sm">
+              <span data-timer-h class="px-2 py-0.5 rounded bg-[#C8321E] text-white shadow-sm min-w-[28px] text-center">০০</span>
+              <span class="text-red-700 font-bold">:</span>
+              <span data-timer-m class="px-2 py-0.5 rounded bg-[#C8321E] text-white shadow-sm min-w-[28px] text-center">০০</span>
+              <span class="text-red-700 font-bold">:</span>
+              <span data-timer-s class="px-2 py-0.5 rounded bg-[#C8321E] text-white shadow-sm min-w-[28px] text-center animate-pulse">০০</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 mt-5 border-t border-gray-200 space-y-3">
+        <div class="flex items-center justify-between">
+          <span class="text-sm font-extrabold text-gray-800">কম্বো প্যাকের পরিমাণ:</span>
+          <div class="flex items-center gap-2 bg-white border-2 border-[#4A0E17] rounded-xl px-2.5 py-1" role="group" aria-label="পরিমাণ">
+            <button type="button" data-qty="-1" class="w-8 h-8 rounded-lg bg-[#FFF8EC] hover:bg-[#4A0E17] hover:text-white font-bold disabled:opacity-40" aria-label="পরিমাণ কমান">−</button>
+            <span data-b="qty" class="w-8 text-center font-extrabold text-[#4A0E17]" aria-live="polite"></span>
+            <button type="button" data-qty="1" class="w-8 h-8 rounded-lg bg-[#4A0E17] text-[#FFF2B2] hover:bg-[#63121E] font-bold disabled:opacity-40" aria-label="পরিমাণ বাড়ান">+</button>
+          </div>
+        </div>
+        <a href="#order-form" class="block text-center w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-[#4A0E17] via-[#63121E] to-[#4A0E17] text-[#FFF2B2] font-extrabold text-base sm:text-lg shadow-xl"><svg class="w-5 h-5 fill-none stroke-[#FFF2B2] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> অর্ডার করুন <span data-b="subtotal"></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How to eat -->
+<section id="how" class="py-12 sm:py-16 bg-gradient-to-b from-[#4A0E17] to-[#2d070c] text-white border-y-2 border-[#D4AF37]/40">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+    <div class="lg:col-span-5 space-y-4">
+      <h2 class="text-2xl sm:text-4xl font-extrabold text-[#FFF2B2] leading-tight">রেডি-টু-ইট চুই গোরমেট ও চুই জ্যাম কীভাবে খাবেন?</h2>
+      <p class="text-sm sm:text-base text-white/90 leading-relaxed">কাঁচা চুইঝাল কিনে ছিলা, কাটা ও দীর্ঘক্ষণ রান্না করা ঝামেলার। তাই আমরা যশোর-খুলনার চুইঝাল মসলাসহ প্রস্তুত করে রেডি-টু-ইট জারে দিচ্ছি। জার খুলেই খাওয়া যায়।</p>
+      <p class="text-xs text-white/70">চুইঝাল ঐতিহ্যগতভাবে রান্নায় স্বাদ ও ঘ্রাণ বাড়াতে ব্যবহৃত হয়। এটি ওষুধ নয়।</p>
+    </div>
+    <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4" id="uses"></div>
+  </div>
+</section>
+
+<!-- Why us -->
+<section id="why" class="py-14 sm:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 reveal">
+  <h2 class="text-2xl sm:text-4xl font-extrabold text-[#4A0E17] text-center mb-3">ঝালে ও স্বাদে খাঁটি, মানে শতভাগ প্রতিশ্রুতি</h2>
+  <div class="gold-divider w-24 mx-auto mb-10"></div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="why-grid"></div>
+</section>
+
+<!-- Steps -->
+<section class="py-12 bg-white border-y border-[#D4AF37]/30 reveal">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-xl sm:text-3xl font-extrabold text-[#4A0E17] text-center mb-3">মাত্র ৩টি সহজ ধাপে অর্ডার করুন</h2>
+    <div class="gold-divider w-20 mx-auto mb-8"></div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-[#FFF8EC] border border-[#D4AF37]/40 rounded-2xl p-6 text-center card-lift relative overflow-hidden"><div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#D4AF37] to-[#E8C15A]"></div><span class="inline-block px-3.5 py-1.5 rounded-full bg-[#4A0E17] text-[#FFF2B2] text-xs font-extrabold mb-3">ধাপ ১</span><h3 class="font-extrabold text-[#4A0E17] text-lg">কম্বো প্যাক ও পরিমাণ বাছুন</h3><p class="text-sm text-gray-700 mt-2">কম্বো প্যাকের সংখ্যা ঠিক করুন।</p></div>
+      <div class="bg-[#FFF8EC] border border-[#D4AF37]/40 rounded-2xl p-6 text-center card-lift relative overflow-hidden"><div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#D4AF37] to-[#E8C15A]"></div><span class="inline-block px-3.5 py-1.5 rounded-full bg-[#4A0E17] text-[#FFF2B2] text-xs font-extrabold mb-3">ধাপ ২</span><h3 class="font-extrabold text-[#4A0E17] text-lg">নাম, ঠিকানা ও মোবাইল নম্বর দিন</h3><p class="text-sm text-gray-700 mt-2">নিচের ফর্মে আপনার তথ্য লিখুন।</p></div>
+      <div class="bg-[#FFF8EC] border border-[#D4AF37]/40 rounded-2xl p-6 text-center card-lift relative overflow-hidden"><div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#D4AF37] to-[#E8C15A]"></div><span class="inline-block px-3.5 py-1.5 rounded-full bg-[#4A0E17] text-[#FFF2B2] text-xs font-extrabold mb-3">ধাপ ৩</span><h3 class="font-extrabold text-[#4A0E17] text-lg">টেস্ট করে টাকা দিন</h3><p class="text-sm text-gray-700 mt-2">ডেলিভারি ম্যান আসলে টেস্ট করে ক্যাশ অন ডেলিভারিতে মূল্য দিন।</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Order form -->
+<section id="order-form" class="py-14 sm:py-20 bg-gradient-to-b from-[#FFF8EC] to-[#f7ebd4] border-t-2 border-[#D4AF37]/40 reveal">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <span class="inline-block px-4 py-1.5 rounded-full bg-[#2F5D3A] text-white font-bold text-xs sm:text-sm mb-3 shadow-md"><svg class="w-4 h-4 fill-none stroke-white inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> অগ্রিম কোনো টাকা লাগবে না, ক্যাশ অন ডেলিভারি</span>
+      <h2 class="text-2xl sm:text-4xl font-extrabold text-[#4A0E17]">কম্বো প্যাকটি অর্ডার করতে ফর্মটি পূরণ করুন</h2>
+      <div class="gold-divider w-20 mx-auto mt-4 mb-2"></div>
+      <p class="text-sm text-gray-700 mt-1">ডেলিভারি ম্যান থাকা অবস্থায় টেস্ট করে পণ্য নেওয়ার সুবিধা আছে।</p>
+    </div>
+
+    <form id="order-form-el" novalidate class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="bg-white rounded-3xl p-5 sm:p-6 border-2 border-[#4A0E17] shadow-md">
+          <h3 class="text-base sm:text-lg font-extrabold text-[#4A0E17] mb-3">নির্বাচিত কম্বো অফার</h3>
+          <div class="p-4 rounded-2xl bg-[#FFF8EC] border-2 border-[#D4AF37] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <div class="font-extrabold text-[#4A0E17]">স্পেশাল চুইঝাল কম্বো প্যাক</div>
+              <div class="text-xs text-gray-700 mt-0.5">চুই গোরমেট (১৭৫ মি.লি.) + চুই জ্যাম (২০০ মি.লি.)</div>
+              <div class="flex items-baseline gap-2 mt-1.5"><span data-show="discount" data-b="regular" class="text-xs text-gray-500 line-through font-bold"></span><span data-b="offer" class="text-lg font-extrabold text-[#4A0E17]"></span></div>
+            </div>
+            <div class="flex items-center gap-2 bg-white border border-[#4A0E17]/40 rounded-xl px-2 py-1 self-start sm:self-auto" role="group" aria-label="পরিমাণ">
+              <button type="button" data-qty="-1" class="w-8 h-8 rounded-lg bg-[#FFF8EC] hover:bg-[#4A0E17] hover:text-white font-bold disabled:opacity-40" aria-label="পরিমাণ কমান">−</button>
+              <span data-b="qty" class="w-8 text-center font-extrabold text-[#4A0E17]" aria-live="polite"></span>
+              <button type="button" data-qty="1" class="w-8 h-8 rounded-lg bg-[#4A0E17] text-[#FFF2B2] hover:bg-[#63121E] font-bold disabled:opacity-40" aria-label="পরিমাণ বাড়ান">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl p-5 sm:p-6 border-2 border-[#D4AF37]/40 shadow-sm space-y-4">
+          <h3 class="text-base sm:text-lg font-extrabold text-[#4A0E17]">আপনার ডেলিভারি তথ্য</h3>
+          <div class="hp" aria-hidden="true"><label for="f-website">Website</label><input id="f-website" type="text" tabindex="-1" autocomplete="off"></div>
+
+          <div>
+            <label for="f-name" class="block text-sm font-bold text-gray-800 mb-1">আপনার নাম *</label>
+            <input id="f-name" type="text" autocomplete="name" maxlength="80" placeholder="আপনার পূর্ণ নাম লিখুন" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#4A0E17] focus:ring-2 focus:ring-[#4A0E17]/20 outline-none text-sm">
+            <p id="e-name" class="text-xs text-red-700 font-semibold mt-1" hidden></p>
+          </div>
+          <div>
+            <label for="f-phone" class="block text-sm font-bold text-gray-800 mb-1">মোবাইল নম্বর (১১ ডিজিট) *</label>
+            <input id="f-phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="16" placeholder="01XXXXXXXXX" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#4A0E17] focus:ring-2 focus:ring-[#4A0E17]/20 outline-none text-sm">
+            <p id="e-phone" class="text-xs text-red-700 font-semibold mt-1" hidden></p>
+          </div>
+          <fieldset>
+            <legend class="block text-sm font-bold text-gray-800 mb-1">ডেলিভারি এলাকা *</legend>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5" id="zones"></div>
+            <p class="text-xs text-gray-600 mt-1.5">আপনার ঠিকানা অনুযায়ী সঠিক এলাকা বাছুন। কনফার্মেশন কলে ঠিকানা যাচাই করা হবে।</p>
+          </fieldset>
+          <div>
+            <label for="f-address" class="block text-sm font-bold text-gray-800 mb-1">সম্পূর্ণ ঠিকানা (বাসা/রোড, থানা/উপজেলা, জেলা) *</label>
+            <textarea id="f-address" rows="3" maxlength="300" autocomplete="street-address" placeholder="উদাহরণ: বাসা ১২, রোড ৫, ধানমন্ডি, ঢাকা" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#4A0E17] focus:ring-2 focus:ring-[#4A0E17]/20 outline-none text-sm"></textarea>
+            <p id="e-address" class="text-xs text-red-700 font-semibold mt-1" hidden></p>
+          </div>
+          <div>
+            <label for="f-note" class="block text-sm font-bold text-gray-800 mb-1">অর্ডার নোট (ঐচ্ছিক)</label>
+            <input id="f-note" type="text" maxlength="200" placeholder="ডেলিভারি সময় বা বিশেষ নির্দেশনা" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 focus:border-[#4A0E17] outline-none text-sm">
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5 lg:sticky lg:top-24">
+        <div class="bg-white rounded-3xl border-2 border-[#4A0E17] shadow-xl overflow-hidden">
+          <div class="bg-gradient-to-r from-[#4A0E17] to-[#63121E] px-6 py-4"><h3 class="font-extrabold text-base sm:text-lg text-[#FFF2B2]"><svg class="w-5 h-5 fill-none stroke-[#FFF2B2] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg> অর্ডার সামারি</h3></div>
+          <div class="p-6 space-y-4 text-sm">
+            <div class="flex items-start justify-between gap-2 border-b border-gray-100 pb-3">
+              <div><div class="font-extrabold text-[#4A0E17]">স্পেশাল চুইঝাল কম্বো প্যাক</div><div class="text-gray-600 text-xs mt-0.5">গোরমেট ১৭৫ মি.লি. + জ্যাম ২০০ মি.লি. × <span data-b="qty"></span> সেট</div></div>
+              <div data-b="subtotal" class="font-extrabold text-gray-900 shrink-0"></div>
+            </div>
+            <div data-show="discount" class="flex justify-between text-[#2F5D3A] font-bold bg-[#2F5D3A]/10 px-3 py-1.5 rounded-lg"><span>ডিসকাউন্ট সাশ্রয়:</span><span data-b="totalSaved"></span></div>
+            <div class="flex justify-between text-gray-800"><span>সাবটোটাল:</span><span data-b="subtotal" class="font-bold"></span></div>
+            <div class="flex justify-between text-gray-800"><span>ডেলিভারি চার্জ (<span data-text="zoneName"></span>):</span><span data-b="delivery" class="font-bold"></span></div>
+            <div class="border-t border-gray-200 pt-3 flex justify-between items-baseline"><span class="font-extrabold text-[#4A0E17]">সর্বমোট প্রদেয়:</span><span data-b="grand" class="text-2xl font-extrabold text-[#4A0E17]"></span></div>
+
+            <div class="bg-[#FFF8EC] border border-[#D4AF37] rounded-2xl p-3.5 text-xs space-y-1">
+              <div class="font-extrabold text-[#4A0E17] flex items-center gap-1.5"><svg class="w-5 h-5 fill-none stroke-[#2F5D3A] shrink-0 inline-block" viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> ক্যাশ অন ডেলিভারি</div>
+              <p class="text-gray-700">ডেলিভারি ম্যান থাকা অবস্থায় টেস্ট করে পণ্য নেওয়ার সুবিধা আছে।</p>
+              <p data-show="returnPolicy" data-text="returnPolicy" class="text-gray-700"></p>
+            </div>
+
+            <div id="submit-error" role="alert" class="bg-red-50 border border-red-300 text-red-800 rounded-xl p-3 text-xs font-semibold" hidden></div>
+
+            <button id="submit-btn" type="submit" class="w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-[#4A0E17] via-[#63121E] to-[#4A0E17] text-[#FFF2B2] font-extrabold text-base sm:text-lg shadow-xl disabled:opacity-60"><svg class="w-5 h-5 fill-none stroke-[#FFF2B2] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> অর্ডার কনফার্ম করুন <span data-b="grand"></span></button>
+            <a data-wa href="#" target="_blank" rel="noopener noreferrer" class="block text-center w-full py-3 px-4 rounded-xl bg-[#2F5D3A]/10 hover:bg-[#2F5D3A] text-[#2F5D3A] hover:text-white border border-[#2F5D3A]/30 font-bold text-sm transition"><svg class="w-5 h-5 fill-current text-[#25D366] inline-block shrink-0" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.053-1.025-.078-.58-.194-1.332-.576-2.228-1.472-.897-.896-1.28-1.648-1.473-2.228-.13-.391-.123-.713-.078-1.025.05-.333.419-1.026.824-1.17.135-.048.281-.039.387.026.115.07.218.232.298.397.168.347.574 1.401.624 1.503.05.102.058.209-.007.319-.066.11-.144.204-.236.312-.092.108-.184.2-.276.308-.099.117-.035.247.037.369.297.502.668.956 1.109 1.353.483.435.98.775 1.516 1.019.141.064.267.064.364-.047.098-.112.422-.491.534-.658.112-.167.225-.14.373-.085.148.055.938.442 1.098.522.16.08.267.12.307.187.04.068.04.394-.104.799z"/></svg> অথবা হোয়াটসঅ্যাপে অর্ডার পাঠান</a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-14 sm:py-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 reveal">
+  <h2 class="text-2xl sm:text-3xl font-extrabold text-[#4A0E17] text-center mb-3">সচরাচর জিজ্ঞাসিত প্রশ্নোত্তর</h2>
+  <div class="gold-divider w-20 mx-auto mb-8"></div>
+  <div class="space-y-3" id="faq-list"></div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-gradient-to-b from-[#3B0A11] to-[#240509] text-white pt-14 pb-24 sm:pb-14 border-t-4 border-[#D4AF37]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 pb-8 border-b border-white/10">
+      <div class="space-y-3">
+        <div class="flex items-center gap-3">
+          <img src="logo.jpg" alt="Chuijhal Mart Logo" class="w-12 h-12 rounded-xl object-cover border border-[#D4AF37]/50 shadow-md">
+          <span class="font-extrabold text-xl shimmer-text">Chuijhal mart</span>
+        </div>
+        <p class="text-sm text-white/85 max-w-sm leading-relaxed">যশোর-খুলনার ঐতিহ্যবাহী চুইঝাল এখন রেডি-টু-ইট জারে। হ্যান্ডক্রাফটেড মসলা।</p>
+        <p data-show="bsti" class="text-xs text-[#FFF2B2] font-semibold"><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> BSTI লাইসেন্স: <span data-text="bstiLicense"></span></p>
+      </div>
+      <div class="space-y-3 text-sm">
+        <h3 class="font-extrabold text-[#FFF2B2] text-base mb-2">যোগাযোগ ও অর্ডার হটলাইন</h3>
+        <p><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a data-tel href="#" class="hover:underline font-bold"><span data-phone></span> (WhatsApp)</a></p>
+        <p><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> <a href="https://chuijhalmart.com" target="_blank" rel="noopener noreferrer" class="hover:underline">chuijhalmart.com</a></p>
+        <p><svg class="w-4 h-4 fill-current text-[#1877F2] inline-block shrink-0" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg> <a href="https://www.facebook.com/chuijhalmart/" target="_blank" rel="noopener noreferrer" class="hover:underline">facebook.com/chuijhalmart</a></p>
+        <p><svg class="w-4 h-4 fill-none stroke-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> <span data-text="address"></span></p>
+      </div>
+    </div>
+    <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/70">
+      <span>© <span id="year"></span> Chuijhal Mart (চুইঝাল মার্ট). সর্বস্বত্ব সংরক্ষিত।</span>
+      <span class="text-[#D4AF37]/50">ঝালে ও স্বাদে খাঁটি <svg class="w-4 h-4 fill-current text-[#E8C15A] inline-block shrink-0" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"/></svg></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating buttons -->
+<div class="fixed bottom-20 sm:bottom-6 right-4 z-40 flex flex-col gap-3">
+  <a href="https://m.me/chuijhalmart" target="_blank" rel="noopener noreferrer" class="w-14 h-14 rounded-full bg-gradient-to-tr from-[#006AFF] to-[#00B2FF] text-white shadow-[0_4px_15px_rgba(0,106,255,0.4)] flex items-center justify-center hover:scale-110 transition-all duration-300 border-2 border-white" aria-label="Messenger এ চ্যাট করুন"><svg class="w-7 h-7 fill-current text-white" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.914 1.455 5.518 3.735 7.198V22l3.414-1.874c.905.251 1.864.388 2.851.388 5.523 0 10-4.145 10-9.256C22 6.145 17.523 2 12 2zm1.054 12.443l-2.613-2.787-5.099 2.787 5.606-5.952 2.678 2.787 5.034-2.787-5.606 5.952z"/></svg></a>
+  <a data-wa href="#" target="_blank" rel="noopener noreferrer" class="w-14 h-14 rounded-full bg-[#25D366] text-white shadow-[0_4px_15px_rgba(37,211,102,0.4)] flex items-center justify-center hover:scale-110 transition-all duration-300 border-2 border-white" aria-label="WhatsApp এ অর্ডার করুন"><svg class="w-7 h-7 fill-current text-white" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.053-1.025-.078-.58-.194-1.332-.576-2.228-1.472-.897-.896-1.28-1.648-1.473-2.228-.13-.391-.123-.713-.078-1.025.05-.333.419-1.026.824-1.17.135-.048.281-.039.387.026.115.07.218.232.298.397.168.347.574 1.401.624 1.503.05.102.058.209-.007.319-.066.11-.144.204-.236.312-.092.108-.184.2-.276.308-.099.117-.035.247.037.369.297.502.668.956 1.109 1.353.483.435.98.775 1.516 1.019.141.064.267.064.364-.047.098-.112.422-.491.534-.658.112-.167.225-.14.373-.085.148.055.938.442 1.098.522.16.08.267.12.307.187.04.068.04.394-.104.799z"/></svg></a>
+</div>
+
+<!-- Mobile sticky bar -->
+<div class="sm:hidden fixed bottom-0 inset-x-0 z-40 bg-[#3B0A11] border-t-2 border-[#D4AF37] px-4 py-2.5 flex items-center justify-between gap-3">
+  <div><span class="text-[11px] text-[#FFF2B2]/85 block">কম্বো অফার (<span data-b="qty"></span> সেট)</span><span class="text-lg font-extrabold text-[#FFF2B2]"><span data-b="grand"></span> <span class="text-[10px] text-[#E8C15A] font-normal">(ডেলিভারিসহ)</span></span></div>
+  <a href="#order-form" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#FFF2B2] via-[#E8C15A] to-[#D4AF37] text-[#4A0E17] font-extrabold text-sm"><svg class="w-5 h-5 fill-none stroke-[#4A0E17] inline-block shrink-0" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> অর্ডার করুন</a>
+</div>
+
+<!-- Success modal -->
+<div id="modal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-md flex items-center justify-center p-4" hidden>
+  <div id="modal-box" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="modal-title" class="bg-white rounded-3xl max-w-md w-full overflow-hidden border-2 border-[#D4AF37] shadow-[0_20px_60px_rgba(0,0,0,0.3)] outline-none anim-up">
+    <div class="bg-gradient-to-r from-[#2F5D3A] to-[#1e4226] p-6 text-white text-center relative">
+      <button type="button" id="modal-x" class="absolute top-4 right-4 text-white/80 hover:text-white" aria-label="বন্ধ করুন"><svg class="w-5 h-5 fill-none stroke-white" viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+      <div class="w-16 h-16 rounded-full bg-white text-[#2F5D3A] mx-auto flex items-center justify-center mb-3"><svg class="w-9 h-9 fill-none stroke-[#2F5D3A]" viewBox="0 0 24 24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+      <h3 id="modal-title" class="text-2xl font-extrabold">অর্ডার সফলভাবে জমা হয়েছে!</h3>
+      <p class="text-xs text-white/90 mt-1">অর্ডার আইডি: <span id="m-id" class="font-mono font-bold"></span></p>
+    </div>
+    <div class="p-6 space-y-4 text-sm">
+      <div class="bg-[#FFF8EC] p-4 rounded-2xl border border-[#D4AF37]/40 space-y-1.5">
+        <p><strong>পণ্য:</strong> কম্বো প্যাক × <span id="m-qty"></span> সেট</p>
+        <p><strong>নাম:</strong> <span id="m-name"></span></p>
+        <p><strong>মোবাইল:</strong> <span id="m-phone"></span></p>
+        <p><strong>ঠিকানা:</strong> <span id="m-address"></span></p>
+        <p class="pt-2 border-t border-gray-200 text-base font-extrabold text-[#4A0E17]">ক্যাশ অন ডেলিভারি বিল: <span id="m-total"></span></p>
+      </div>
+      <p class="text-gray-700 text-center text-xs leading-relaxed">আমাদের প্রতিনিধি শীঘ্রই কল করে অর্ডার কনফার্ম করবেন। ডেলিভারি ম্যান থাকা অবস্থায় টেস্ট করে পণ্য নিতে পারবেন।</p>
+      <a id="m-wa" href="#" target="_blank" rel="noopener noreferrer" class="block text-center w-full py-3.5 px-4 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-extrabold"><svg class="w-5 h-5 fill-current text-white inline-block shrink-0" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.053-1.025-.078-.58-.194-1.332-.576-2.228-1.472-.897-.896-1.28-1.648-1.473-2.228-.13-.391-.123-.713-.078-1.025.05-.333.419-1.026.824-1.17.135-.048.281-.039.387.026.115.07.218.232.298.397.168.347.574 1.401.624 1.503.05.102.058.209-.007.319-.066.11-.144.204-.236.312-.092.108-.184.2-.276.308-.099.117-.035.247.037.369.297.502.668.956 1.109 1.353.483.435.98.775 1.516 1.019.141.064.267.064.364-.047.098-.112.422-.491.534-.658.112-.167.225-.14.373-.085.148.055.938.442 1.098.522.16.08.267.12.307.187.04.068.04.394-.104.799z"/></svg> হোয়াটসঅ্যাপে অর্ডার কপি পাঠান</a>
+      <button type="button" id="modal-close" class="w-full py-2.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold text-sm">বন্ধ করুন</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* =====================================================================
+   শুধু এই একটি লাইন আপনাকে একবার বসাতে হবে।
+   দাম, ছবি, ডেলিভারি চার্জ ইত্যাদি বদলাতে Google Sheet এর "Settings" ট্যাব এডিট করুন।
+   ===================================================================== */
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyRhLn0KIQGjn6gGQwOiVSwtLmYEpeg9MOEJQsIvTGuaXCK8QXifW3A2PUH_0ggQDFx/exec";   // Apps Script Web App URL (.../exec)
+const PIXEL_ID = "";          // Meta Pixel ID (ঐচ্ছিক)
+
+// Sheet লোড না হলে এই ডিফল্ট দেখাবে (Settings ট্যাবের মানই আসল)
+const DEFAULTS = {
+  offerPrice: 999, regularPrice: 1200,
+  gourmetImage: "", jamImage: "",
+  deliveryKhulnaJashore: 60, deliveryDhaka: 80, deliveryNationwide: 120,
+  offerEndsAt: "", bstiLicense: "", returnPolicy: "",
+  maxQty: 10, whatsapp: "8801833600707", phoneDisplay: "01833-600707",
+  address: "যশোর-খুলনা, বাংলাদেশ (সারা বাংলাদেশে ডেলিভারি)"
+};
+
+const FAQS = [
+  ["ডেলিভারি ম্যান থাকা অবস্থায় কি টেস্ট করে নেওয়া যাবে?", "হ্যাঁ। ডেলিভারি ম্যান থাকা অবস্থায় জার খুলে সামান্য টেস্ট করে দেখে তারপর মূল্য পরিশোধ করতে পারবেন।"],
+  ["চুই গোরমেট এবং চুই জ্যাম কীভাবে খাবো? আবার রান্না করতে হবে কি?", "না, এটি রেডি-টু-ইট। রান্না করা গরু, খাসি, মুরগি বা মাছের ঝোলে নামানোর ৫ মিনিট আগে ১-২ চামচ মিশিয়ে নিতে পারেন, অথবা গরম ভাত, খিচুড়ি, বিরিয়ানি ও পরোটার সাথে সাইড ডিশ হিসেবে খেতে পারেন।"],
+  ["এটি কতদিন সংরক্ষণ করা যাবে? ফ্রিজে রাখতে হবে কি?", "সংরক্ষণের সময়সীমা ও নিয়ম জারের লেবেলে দেওয়া আছে। সবসময় শুকনো চামচ ব্যবহার করুন এবং খোলার পর ঢাকনা শক্ত করে বন্ধ রাখুন।"],
+  ["অগ্রিম কোনো টাকা দিতে হবে কি?", "না, অগ্রিম কোনো টাকা লাগবে না। ক্যাশ অন ডেলিভারিতে পণ্য হাতে পেয়ে মূল্য পরিশোধ করবেন।"],
+  ["চুইঝাল কোথা থেকে সংগ্রহ করা হয়?", "আমাদের চুইঝাল যশোর ও খুলনা অঞ্চল থেকে সংগ্রহ করা এবং হ্যান্ডক্রাফটেড পদ্ধতিতে তৈরি।"],
+  ["চুইঝালের ঐতিহ্যগত ব্যবহার কী?", "চুইঝাল খুলনা-যশোর অঞ্চলে ঐতিহ্যগতভাবে মাংস ও মাছের রান্নায় স্বাদ ও ঘ্রাণ বাড়াতে ব্যবহৃত হয়। এটি ওষুধ নয় এবং কোনো রোগের চিকিৎসার দাবি করা হচ্ছে না। শারীরিক সমস্যা থাকলে চিকিৎসকের পরামর্শ নিন।"]
+];
+const USES = [
+  ["গরু ও খাসির মাংসের সাথে", "রান্না করা মাংসের ঝোলে চুলা থেকে নামানোর ৫ মিনিট আগে ২ চামচ চুই গোরমেট মিশিয়ে দিন, অথবা প্লেটে মাংসের সাথে নিয়ে খান।", "সবচেয়ে জনপ্রিয়"],
+  ["ভুনা খিচুড়ি, পোলাও ও বিরিয়ানি", "গরম খিচুড়ি, তেহারি বা বিরিয়ানির সাথে ১ চামচ চুই গোরমেট বা চুই জ্যাম নিলে স্বাদ হবে অন্যরকম।", "রেস্টুরেন্ট স্বাদ"],
+  ["মুরগি, হাঁস ও মাছ ভুনা", "দেশি মুরগি, হাঁসের মাংস কিংবা বড় মাছ ভুনায় চুই গোরমেট যোগ করলে ঘ্রাণ ও ঝাল-স্বাদ বাড়ে।", "ঘরোয়া রান্না"],
+  ["গরম ভাত, পরোটা বা হালিম", "পরোটা, হালিম বা গরম ভাতের সাথে আচার বা চাটনির মতো খাওয়া যায়।", "রেডি টু ইট"]
+];
+
+/* ---------- helpers ---------- */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const BND = "০১২৩৪৫৬৭৮৯";
+const bn = (n) => String(n).replace(/\d/g, (d) => BND[d]);
+const taka = (n) => "৳" + bn(n);
+const BN_TO_EN = {'০':'0','১':'1','২':'2','৩':'3','৪':'4','৫':'5','৬':'6','৭':'7','৮':'8','৯':'9'};
+const toEnDigits = (str) => String(str || '').replace(/[০-৯]/g, (d) => BN_TO_EN[d]);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const safeUrl = (u) => (/^(https:\/\/|\/|\.\/)/.test(String(u || "")) ? String(u) : "");
+const track = (ev, p, o) => { try { if (typeof fbq === "function") fbq("track", ev, p || {}, o || {}); } catch (e) {} };
+
+/* ---------- state ---------- */
+let S = Object.assign({}, DEFAULTS);
+try { Object.assign(S, JSON.parse(localStorage.getItem("cm_settings") || "{}")); } catch (e) {}
+let qty = 1, zoneId = "dhaka", submitting = false;
+const startedAt = Date.now();
+
+const num = (v, d) => (Number.isFinite(Number(v)) && String(v) !== "" ? Number(v) : d);
+const zones = () => [
+  { id: "khulna-jashore", name: "যশোর ও খুলনা অঞ্চল", charge: num(S.deliveryKhulnaJashore, 60) },
+  { id: "dhaka", name: "ঢাকা সিটি", charge: num(S.deliveryDhaka, 80) },
+  { id: "nationwide", name: "সারা বাংলাদেশ (অন্যান্য জেলা)", charge: num(S.deliveryNationwide, 120) }
+];
+function calc() {
+  const offer = num(S.offerPrice, 999), regular = num(S.regularPrice, 0);
+  const z = zones().find((x) => x.id === zoneId) || zones()[1];
+  const unitSave = Math.max(0, regular - offer);
+  const subtotal = offer * qty;
+  return { offer, regular, unitSave, z, subtotal, totalSaved: unitSave * qty, delivery: z.charge, grand: subtotal + z.charge, hasDiscount: regular > offer, max: Math.max(1, num(S.maxQty, 10)) };
+}
+
+/* ---------- jars ---------- */
+function jarSvg(type, uid) {
+  const g = type === "gourmet";
+  return `<svg viewBox="0 0 220 300" class="w-full h-full drop-shadow-[0_18px_25px_rgba(0,0,0,0.45)]" role="img" aria-label="${g ? "চুই গোরমেট জার" : "চুই জ্যাম জার"}">
+  <defs>
+    <linearGradient id="${uid}l" x1="0" x2="1"><stop offset="0" stop-color="#8A6421"/><stop offset=".45" stop-color="#FFF5C0"/><stop offset="1" stop-color="#9C7A23"/></linearGradient>
+    <linearGradient id="${uid}b" x1="0" x2="1">${g ? '<stop offset="0" stop-color="#8D6E2F"/><stop offset=".45" stop-color="#F5E3A3"/><stop offset="1" stop-color="#7C5E24"/>' : '<stop offset="0" stop-color="#3B0A11"/><stop offset=".5" stop-color="#7E1E29"/><stop offset="1" stop-color="#33070D"/>'}</linearGradient>
+    <linearGradient id="${uid}s" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset=".25" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect x="30" y="46" width="160" height="236" rx="24" fill="${g ? "#3A2610" : "#24080A"}" stroke="#5c4028" stroke-width="1.5"/>
+  <rect x="42" y="34" width="136" height="16" rx="4" fill="#2A180C"/>
+  <rect x="30" y="94" width="160" height="152" fill="url(#${uid}b)"/>
+  <text x="110" y="130" text-anchor="middle" fill="${g ? "#4A1215" : "#E8C15A"}" font-size="13" font-weight="800" font-family="sans-serif">chuijhal mart</text>
+  <text x="110" y="148" text-anchor="middle" fill="${g ? "#3A1810" : "#E8C15A"}" font-size="8" font-family="serif">Handcrafted</text>
+  <rect x="64" y="160" width="92" height="70" rx="3" fill="#D4AF37" opacity="${g ? ".4" : ".95"}"/>
+  <text x="110" y="184" text-anchor="middle" fill="#4A0E17" font-size="17" font-weight="900" font-family="'Hind Siliguri',sans-serif">${g ? "চুই গোরমেট" : "চুই জ্যাম"}</text>
+  <text x="110" y="199" text-anchor="middle" fill="#4A0E17" font-size="9" font-style="italic" font-weight="bold" font-family="serif">${g ? "Chui Gourmet" : "Chui Jam"}</text>
+  <text x="110" y="212" text-anchor="middle" fill="#3B0A11" font-size="8" font-weight="700" font-family="'Hind Siliguri',sans-serif">${g ? "রেডি টু ইট চুইঝাল" : "টক ঝাল মিষ্টি চুইঝাল"}</text>
+  <text x="110" y="224" text-anchor="middle" fill="#2B070C" font-size="7" font-weight="bold" font-family="'Hind Siliguri',sans-serif">${g ? "নিট পরিমাণঃ ১৭৫ মি.লি." : "নিট পরিমাণঃ ২০০ মি.লি."}</text>
+  <rect x="30" y="46" width="160" height="236" rx="24" fill="url(#${uid}s)" pointer-events="none"/>
+  <rect x="34" y="14" width="152" height="25" rx="6" fill="url(#${uid}l)" stroke="#6E521C"/>
+</svg>`;
+}
+function jar(type, cls, uid) {
+  const url = safeUrl(type === "gourmet" ? S.gourmetImage : S.jamImage);
+  const label = type === "gourmet" ? "চুই গোরমেট" : "চুই জ্যাম";
+  if (url) return `<img src="${esc(url)}" alt="${label}" loading="lazy" class="${cls} object-contain drop-shadow-2xl">`;
+  return `<div class="${cls}">${jarSvg(type, uid)}</div>`;
+}
+function paintJars() {
+  $("#hero-jars").innerHTML =
+    `<div class="z-20 -mr-6 -rotate-3 hover:rotate-0 transition-transform">${jar("gourmet", "w-36 sm:w-44 h-52 sm:h-60", "hg")}</div>` +
+    `<div class="z-20 -ml-6 rotate-3 hover:rotate-0 transition-transform">${jar("jam", "w-36 sm:w-44 h-52 sm:h-60", "hj")}</div>`;
+  const card = (type, tag, title, desc, uid) =>
+    `<div class="bg-black/25 border border-[#D4AF37]/30 rounded-2xl p-4 flex flex-col items-center text-center">${jar(type, "w-32 sm:w-40 h-44 sm:h-52", uid)}<span class="mt-2 px-2.5 py-0.5 rounded-full bg-[#D4AF37] text-[#4A0E17] font-extrabold text-[11px]">${tag}</span><h3 class="font-extrabold text-sm sm:text-base text-[#FFF2B2] mt-1">${title}</h3><p class="text-xs text-white/80">${desc}</p></div>`;
+  $("#product-jars").innerHTML =
+    card("gourmet", "জার ১ • ১৭৫ মি.লি.", "চুই গোরমেট", "রেডি-টু-ইট চুইঝাল মসলা", "pg") +
+    card("jam", "জার ২ • ২০০ মি.লি.", "চুই জ্যাম", "টক-ঝাল-মিষ্টি চুইঝাল", "pj");
+}
+
+/* ---------- static lists ---------- */
+const GOLD_ICONS = {
+  thumbsUp: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h3Z"/></svg>`,
+  handshake: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 0 0 1.42 0l6.58-6.59a1 1 0 0 0 0-1.41l-2-2a1 1 0 0 0-1.41 0L14 12"/><path d="m13 13-2-2a1 1 0 0 0-1.42 0L3 17.59a1 1 0 0 0 0 1.41l2 2a1 1 0 0 0 1.41 0L10 17"/><path d="m18 8 2-2a1 1 0 0 0 0-1.41l-2-2a1 1 0 0 0-1.41 0l-3 3"/><path d="m6 16-2 2a1 1 0 0 0 0 1.41l2 2a1 1 0 0 0 1.41 0l3-3"/></svg>`,
+  truck: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>`,
+  flame: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
+  award: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>`,
+  gem: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M11 3 8 9l4 12 4-12-3-6"/><path d="M2 9h20"/></svg>`,
+  utensils: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>`,
+  mapPin: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>`,
+  package: `<svg class="w-7 h-7 fill-none stroke-[#E8C15A] filter drop-shadow-[0_2px_8px_rgba(232,193,90,0.4)]" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" y1="22" x2="12" y2="12"/></svg>`
+};
+
+function paintStatic() {
+  $("#trust").innerHTML = [
+    [GOLD_ICONS.thumbsUp, "টেস্ট করে নেওয়ার সুবিধা", "ডেলিভারি ম্যানের সামনেই"],
+    [GOLD_ICONS.handshake, "অগ্রিম টাকা লাগবে না", "ক্যাশ অন ডেলিভারি"],
+    [GOLD_ICONS.truck, "সারা বাংলাদেশে ডেলিভারি", "ঢাকা, যশোর-খুলনা ও অন্যান্য জেলা"],
+    [GOLD_ICONS.flame, "যশোর-খুলনার চুইঝাল", "হ্যান্ডক্রাফটেড রেডি-টু-ইট"]
+  ].map(([i, t, d]) => `<div class="flex items-center gap-3.5 p-4 rounded-2xl bg-[#FFF8EC] border border-[#D4AF37]/40 card-lift shadow-sm"><div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#4A0E17] via-[#5c111d] to-[#380810] border border-[#D4AF37]/50 flex items-center justify-center shrink-0 shadow-md">${i}</div><div><h3 class="font-bold text-sm sm:text-base text-[#4A0E17]">${t}</h3><p class="text-xs text-gray-600 mt-0.5 leading-relaxed">${d}</p></div></div>`).join("");
+
+  $("#uses").innerHTML = USES.map(([t, d, tag], i) => `<div class="bg-[#3B0A11]/90 border border-[#D4AF37]/30 rounded-2xl p-5"><div class="flex items-center justify-between mb-2"><span class="w-8 h-8 rounded-lg bg-[#D4AF37]/20 text-[#FFF2B2] font-extrabold text-sm flex items-center justify-center">${bn(i + 1)}</span><span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-[#D4AF37]/20 text-[#E8C15A]">${tag}</span></div><h3 class="font-bold text-base sm:text-lg text-[#FFF2B2] mb-1.5">${t}</h3><p class="text-sm text-white/85 leading-relaxed">${d}</p></div>`).join("");
+
+  $("#faq-list").innerHTML = FAQS.map(([q, a], i) => `<div class="bg-white rounded-2xl border border-[#D4AF37]/40 overflow-hidden shadow-sm"><button type="button" class="faq-q w-full px-5 py-4 text-left flex items-center justify-between gap-4 font-bold text-sm sm:text-base text-[#4A0E17] hover:bg-[#FFF8EC]/60" aria-expanded="${i === 0}" aria-controls="faq-a-${i}"><span>${q}</span><span aria-hidden="true">${i === 0 ? "▲" : "▼"}</span></button><div id="faq-a-${i}" class="px-5 pb-4 pt-1 text-sm text-gray-800 leading-relaxed border-t border-gray-100" ${i === 0 ? "" : "hidden"}>${a}</div></div>`).join("");
+  $$(".faq-q").forEach((b) => b.addEventListener("click", () => {
+    const panel = document.getElementById(b.getAttribute("aria-controls"));
+    const open = panel.hidden;
+    panel.hidden = !open;
+    b.setAttribute("aria-expanded", String(open));
+    b.lastElementChild.textContent = open ? "▲" : "▼";
+  }));
+}
+
+function paintWhy() {
+  const items = [
+    [GOLD_ICONS.thumbsUp, "ডেলিভারির সময় টেস্ট করার সুবিধা", "ডেলিভারি ম্যান থাকা অবস্থায় পণ্য টেস্ট করে দেখে তারপর মূল্য পরিশোধ করুন।"],
+    S.bstiLicense ? [GOLD_ICONS.award, "BSTI অনুমোদিত", "আমাদের পণ্য বিএসটিআই অনুমোদিত। লাইসেন্স নম্বর: " + esc(S.bstiLicense)] : [GOLD_ICONS.gem, "হ্যান্ডক্রাফটেড প্রস্তুতি", "প্রতিটি ব্যাচ যত্ন নিয়ে হাতে তৈরি করা হয়।"],
+    [GOLD_ICONS.utensils, "রেডি-টু-ইট", "কাটাকুটি বা বাটার ঝামেলা নেই। জার খুলেই খাবারের সাথে পরিবেশন করুন।"],
+    [GOLD_ICONS.mapPin, "যশোর-খুলনার চুইঝাল", "যশোর ও খুলনা অঞ্চল থেকে সংগৃহীত চুইঝাল দিয়ে তৈরি।"],
+    [GOLD_ICONS.package, "কাঁচের জার প্যাকেজিং", "কাঁচের জারে প্যাক করা হয় যাতে ঘ্রাণ ও স্বাদ ঠিক থাকে।"],
+    [GOLD_ICONS.handshake, "অগ্রিম টাকা ছাড়াই অর্ডার", "অর্ডার কনফার্ম করুন, পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।"]
+  ];
+  $("#why-grid").innerHTML = items.map(([i, t, d]) => `<div class="bg-white rounded-2xl p-6 border border-[#D4AF37]/30 shadow-sm card-lift flex flex-col items-start"><div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#4A0E17] via-[#5c111d] to-[#380810] border border-[#D4AF37]/50 flex items-center justify-center mb-4 shadow-md">${i}</div><h3 class="text-lg font-extrabold text-[#4A0E17] mb-2">${t}</h3><p class="text-sm text-gray-700 leading-relaxed">${d}</p></div>`).join("");
+}
+
+/* ---------- main paint (দাম/পরিমাণ/এলাকা বদলালেই চলে) ---------- */
+function paint() {
+  const c = calc();
+  if (qty > c.max) qty = c.max;
+  const V = { offer: taka(c.offer), regular: taka(c.regular), unitSave: taka(c.unitSave), subtotal: taka(c.subtotal), totalSaved: taka(c.totalSaved), delivery: taka(c.delivery), grand: taka(c.grand), qty: bn(qty) };
+  $$("[data-b]").forEach((el) => { el.textContent = V[el.dataset.b]; });
+  $$("[data-text]").forEach((el) => { el.textContent = c.z && el.dataset.text === "zoneName" ? c.z.name : (S[el.dataset.text] || ""); });
+  $$("[data-phone]").forEach((el) => { el.textContent = S.phoneDisplay; });
+  $$("[data-tel]").forEach((el) => { el.href = "tel:+" + String(S.whatsapp).replace(/\D/g, ""); });
+  const timerOn = true; // Evergreen looping countdown is always active
+  const show = { discount: c.hasDiscount, nodiscount: !c.hasDiscount, bsti: !!S.bstiLicense, timer: timerOn, returnPolicy: !!S.returnPolicy };
+  $$("[data-show]").forEach((el) => { el.hidden = !show[el.dataset.show]; });
+  $$("[data-qty]").forEach((b) => { b.disabled = (b.dataset.qty === "-1" && qty <= 1) || (b.dataset.qty === "1" && qty >= c.max); });
+  $("#zones").innerHTML = zones().map((z) => `<button type="button" data-zone="${z.id}" aria-pressed="${z.id === zoneId}" class="p-3 rounded-xl border text-left transition ${z.id === zoneId ? "bg-[#4A0E17] text-[#FFF2B2] border-[#4A0E17]" : "bg-[#FFF8EC] text-gray-800 border-gray-300 hover:border-[#D4AF37]"}"><div class="font-bold text-xs">${z.name}</div><div class="text-sm font-extrabold mt-0.5">${taka(z.charge)}</div></button>`).join("");
+  $$("[data-zone]").forEach((b) => b.addEventListener("click", () => { zoneId = b.dataset.zone; paint(); }));
+  $$("[data-wa]").forEach((a) => { a.href = waUrl(); });
+  $("#year").textContent = new Date().getFullYear();
+}
+
+function waUrl(o) {
+  const c = calc();
+  const d = o || { id: "", qty, name: $("#f-name").value.trim(), phone: $("#f-phone").value.trim(), address: $("#f-address").value.trim(), note: $("#f-note").value.trim(), total: c.grand };
+  const msg = "আসসালামু আলাইকুম Chuijhal Mart! আমি কম্বো প্যাক অর্ডার করতে চাই।\n" + (d.id ? "অর্ডার আইডি: " + d.id + "\n" : "") +
+    "\n■ পণ্য: চুই গোরমেট (১৭৫ মি.লি.) + চুই জ্যাম (২০০ মি.লি.) কম্বো × " + bn(d.qty) + " সেট\n■ সর্বমোট (ডেলিভারিসহ): " + taka(d.total) + " (ক্যাশ অন ডেলিভারি)\n\n" +
+    "■ নাম: " + (d.name || "[নাম]") + "\n■ মোবাইল: " + (d.phone || "[মোবাইল]") + "\n■ ঠিকানা: " + (d.address || "[ঠিকানা]") + (d.note ? "\n■ নোট: " + d.note : "");
+  return "https://wa.me/" + String(S.whatsapp).replace(/\D/g, "") + "?text=" + encodeURIComponent(msg);
+}
+
+/* ---------- Evergreen Looping Countdown ---------- */
+const LOOP_HOURS = 6; // ৬ ঘণ্টার সাইকেল (লুপ করবে)
+const LOOP_MS = LOOP_HOURS * 3600 * 1000;
+
+function getLoopTarget() {
+  if (S.offerEndsAt) {
+    const exp = Date.parse(S.offerEndsAt);
+    if (Number.isFinite(exp) && exp > Date.now()) return exp;
+  }
+  const KEY = "cm_loop_offer_end";
+  let target = Number(localStorage.getItem(KEY));
+  const now = Date.now();
+  if (!target || isNaN(target) || target <= now) {
+    target = now + LOOP_MS;
+    try { localStorage.setItem(KEY, String(target)); } catch (e) {}
+  }
+  return target;
+}
+
+function updateCountdown() {
+  const now = Date.now();
+  let target = getLoopTarget();
+  let left = Math.floor((target - now) / 1000);
+
+  // ০ বা তার নিচে পৌঁছালে স্বয়ংক্রিয়ভাবে আবার নতুন ৬ ঘণ্টার লুপ শুরু করবে
+  if (left <= 0) {
+    target = now + LOOP_MS;
+    try { localStorage.setItem("cm_loop_offer_end", String(target)); } catch (e) {}
+    left = LOOP_HOURS * 3600;
+  }
+
+  const h = Math.floor(left / 3600);
+  const m = Math.floor((left % 3600) / 60);
+  const s = left % 60;
+
+  const pH = bn(String(h).padStart(2, "0"));
+  const pM = bn(String(m).padStart(2, "0"));
+  const pS = bn(String(s).padStart(2, "0"));
+  const formatted = `${pH} : ${pM} : ${pS}`;
+
+  $$("[data-timer]").forEach((el) => { el.textContent = formatted; });
+  $$("[data-timer-h]").forEach((el) => { el.textContent = pH; });
+  $$("[data-timer-m]").forEach((el) => { el.textContent = pM; });
+  $$("[data-timer-s]").forEach((el) => { el.textContent = pS; });
+}
+
+setInterval(updateCountdown, 1000);
+updateCountdown();
+
+/* ---------- Meta Pixel ---------- */
+if (PIXEL_ID) {
+  !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = true; n.version = "2.0"; n.queue = []; t = b.createElement(e); t.async = true; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s); }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+  fbq("init", PIXEL_ID); fbq("track", "PageView");
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-qty]");
+  if (!b) return;
+  const c = calc();
+  qty = Math.min(c.max, Math.max(1, qty + Number(b.dataset.qty)));
+  if (b.dataset.qty === "1") track("AddToCart", { currency: "BDT", value: c.offer });
+  paint();
+});
+$$("#order-form-el input, #order-form-el textarea").forEach((el) => el.addEventListener("input", () => { $$("[data-wa]").forEach((a) => { a.href = waUrl(); }); }));
+$("#f-name").addEventListener("input", () => fieldError("name", ""));
+$("#f-phone").addEventListener("input", () => fieldError("phone", ""));
+$("#f-address").addEventListener("input", () => fieldError("address", ""));
+$$("#order-form a[href='#order-form'], a[href='#order-form']").forEach((a) => a.addEventListener("click", () => track("InitiateCheckout", { currency: "BDT", value: calc().subtotal })));
+
+function fieldError(id, msg) { 
+  const el = $("#e-" + id); 
+  el.textContent = msg || ""; 
+  el.hidden = !msg; 
+  const input = $("#f-" + id);
+  if (input) {
+    if (msg) input.classList.add("border-red-500", "ring-2", "ring-red-200");
+    else input.classList.remove("border-red-500", "ring-2", "ring-red-200");
+  }
+}
+function showError(msg) { const el = $("#submit-error"); el.textContent = msg || ""; el.hidden = !msg; }
+function closeModal() { 
+  $("#modal").hidden = true; 
+  document.body.classList.remove("overflow-hidden");
+}
+$("#modal-x").addEventListener("click", closeModal);
+$("#modal-close").addEventListener("click", closeModal);
+$("#modal").addEventListener("click", (e) => { if (e.target.id === "modal") closeModal(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#modal").hidden) closeModal(); });
+
+$("#order-form-el").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  if (submitting) return;
+  showError("");
+  const name = $("#f-name").value.trim(), 
+        rawPhone = toEnDigits($("#f-phone").value).replace(/[\s\-\(\)\.]/g, ""), 
+        address = $("#f-address").value.trim(), 
+        note = $("#f-note").value.trim();
+  
+  const phoneMatch = rawPhone.match(/^(?:\+?88)?(01[3-9]\d{8})$/);
+  const phone = phoneMatch ? phoneMatch[1] : rawPhone;
+  const okPhone = !!phoneMatch;
+
+  let bad = false;
+  fieldError("name", name.length < 2 ? "আপনার পূর্ণ নাম লিখুন।" : ""); if (name.length < 2) bad = true;
+  fieldError("phone", okPhone ? "" : "সঠিক ১১ ডিজিটের মোবাইল নম্বর দিন (যেমন: 01833600707)"); if (!okPhone) bad = true;
+  fieldError("address", address.length < 6 ? "ডেলিভারির জন্য আপনার সম্পূর্ণ ঠিকানা লিখুন।" : ""); if (address.length < 6) bad = true;
+  
+  if (bad) {
+    const firstError = document.querySelector("#e-name:not([hidden]), #e-phone:not([hidden]), #e-address:not([hidden])");
+    if (firstError) {
+      const input = firstError.previousElementSibling;
+      input?.focus();
+      input?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    return;
+  }
+
+  if (!APPS_SCRIPT_URL) { showError("অর্ডার সিস্টেম এখনো চালু হয়নি। অনুগ্রহ করে নিচের WhatsApp বাটনে অর্ডার পাঠান।"); return; }
+
+  submitting = true;
+  const btn = $("#submit-btn"); btn.disabled = true; const old = btn.innerHTML; btn.textContent = "অর্ডার প্রসেস হচ্ছে...";
+  try {
+    const q = new URLSearchParams(location.search);
+    const payload = { name, phone, address, note, zone: zoneId, qty, website: $("#f-website").value, elapsedMs: Date.now() - startedAt, utm: ["utm_source", "utm_medium", "utm_campaign"].map((k) => q.get(k) || "").join("|") };
+    const res = await fetch(APPS_SCRIPT_URL, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) });
+    const data = await res.json();
+    if (!data.ok) { showError(data.message || "অর্ডার জমা হয়নি। আবার চেষ্টা করুন অথবা WhatsApp এ অর্ডার করুন।"); return; }
+
+    const total = data.grandTotal || calc().grand;   // সার্ভারের হিসাবই আসল
+    $("#m-id").textContent = data.orderId; $("#m-qty").textContent = bn(qty); $("#m-name").textContent = name; $("#m-phone").textContent = phone;
+    $("#m-address").textContent = address; $("#m-total").textContent = taka(total);
+    $("#m-wa").href = waUrl({ id: data.orderId, qty, name, phone, address, note, total });
+    $("#modal").hidden = false; 
+    document.body.classList.add("overflow-hidden");
+    $("#modal-box").focus();
+    track("Purchase", { value: total, currency: "BDT", num_items: qty }, { eventID: data.orderId });
+    $("#order-form-el").reset(); qty = 1; paint();
+  } catch (err) {
+    showError("ইন্টারনেট বা সার্ভারে সমস্যা হয়েছে। আবার চেষ্টা করুন অথবা WhatsApp এ অর্ডার করুন।");
+  } finally {
+    submitting = false; btn.disabled = false; btn.innerHTML = old;
+  }
+});
+
+/* ---------- init ---------- */
+paintStatic(); paintWhy(); paintJars(); paint(); updateCountdown();
+track("ViewContent", { currency: "BDT", value: calc().offer });
+
+// Google Sheet এর Settings ট্যাব থেকে লাইভ দাম/ছবি আনা
+if (APPS_SCRIPT_URL) {
+  fetch(APPS_SCRIPT_URL).then((r) => r.json()).then((d) => {
+    if (d && d.ok && d.settings) {
+      S = Object.assign({}, DEFAULTS, d.settings);
+      try { localStorage.setItem("cm_settings", JSON.stringify(d.settings)); } catch (e) {}
+      paintWhy(); paintJars(); paint(); updateCountdown();
+    }
+  }).catch(() => {});
+}
+
+// Scroll reveal animation
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+$$(".reveal").forEach((el) => revealObserver.observe(el));
+</script>
+</body>
+</html>

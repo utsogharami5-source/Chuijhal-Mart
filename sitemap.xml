@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://chuijhalmart.com/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://chuijhalmart.com/banner.jpg</image:loc>
+      <image:title>Chuijhal Mart - খাঁটি চুইঝাল কম্বো প্যাক</image:title>
+      <image:caption>যশোর ও খুলনার ঐতিহ্যবাহী খাঁটি চুইঝাল গোটা মসলা ও চুই জ্যাম</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chuijhalmart.com/logo.jpg</image:loc>
+      <image:title>Chuijhal Mart Logo</image:title>
+      <image:caption>চুইঝাল মার্ট লোগো</image:caption>
+    </image:image>
+  </url>
+</urlset>
